@@ -126,10 +126,10 @@ main{
     width: 80%;
     min-width: 500px;
     font-weight: 800;
-    background: linear-gradient(to top, #082bf5, #029df7);
+    background: linear-gradient(to top, #082bf5, #02eff7);
     background-clip: text;
     color: transparent;
-    background: -webkit-linear-gradient(to top, #082bf5, #029df7);
+    background: -webkit-linear-gradient(to top, #082bf5, #02eff7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
