@@ -94,6 +94,14 @@
 } 
 
 @media (max-width: 576px) {
+    .titulo-principal{
+        font-size: 20px;
+    }
+
+    .icono-navbar{
+        width: 130px;
+        height: 65px;
+    }
     .cart{
         left: 0;
         width: 100%;
