@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
+    <title>Moon AudioCar</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/img/navbar/icono-navbar.png" alt="icono" class="icono-navbar">
+        <p class="titulo-principal"> MOON AUDIOCAR</p>
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/img/navbar/menu.png" alt="menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
+            <ul class="navbar-list">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+                <li>
+                    <a href="#">Tienda</a>
+                </li>
+            </ul>
+            
+            <label for="cart-toggle" class="cart-lable">
+                <img src="./assets/img/navbar/carrito2.png" class="carrito" alt="carrito de compras"> 
+            </label>
+            <input type="checkbox" id="cart-toggle">
+        </nav>
+    </header>
+
+    <main>
+        <section id="portada">
+            <div class="portada-info">
+                <h1>Todo lo que necesitas para tu proyecto audiocar</h1>
+                <p>
+                    Moon Audiocar es una tienda online dedicada a la venta de productos de audiocar ofreciendo la mejor calidad de atencion
+                </p>
+                <a href="#">Ir a Tienda</a>
+            </div>
+
+            <div class="portada-card">
+                <img src="./assets/img/Main/portada-card.png" alt="subwoofer">
+                <div class="product-info">
+                    <div class="product-top">
+                        <h3>Subwoofer Pioneer TS-W312D4/S4</h3>
+                    </div>
+                    <div class="product-mid">
+                        <p>Mas vendido</p>
+                        <span>$32.500</span>
+                    </div>
+                    <div class="product-bot">
+                        <div class="product-offer">
+                            <img src="./assets/img/Main/fuego.png" alt="fire">
+                        </div>
+                        <button class="btn-add">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </section>
+
+        <section id="info">
+            <h2>Encontra, compra y recibi tus productos en 3 simples pasos</h2>
+            <div class="info-card-container">
+                <div class="info-card">
+                    <img src="./assets/img/Main/buscar-item.svg" alt="Buscar item">
+                    <h3>Encontra los productos que necesitas</h3>
+                    <p>
+                        Busca y selecciona los productos que deseas tener.
+                    </p>
+                </div>
+                <div class="info-card">
+                    <img src="./assets/img/Main/forma-pago.svg" alt="Forma de Pago">
+                    <h3>Date el gusto</h3>
+                    <p>
+                        Añade al carrito y selecciona la forma de pago que mas te guste.
+                    </p>
+                </div>
+                <div class="info-card">
+                    <img src="./assets/img/Main/forma-envio.svg" alt="Forma de envio">
+                    <h3>Recibilo de la mejor manera</h3>
+                    <p>
+                       Elegi la forma de envio que mas te convenga.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="products">
+            <h2>Productos Destacados</h2>
+            <div class="categories">
+                <button class="category active">Todas</button>
+                <button class="category">Subwoofer</button>
+                <button class="category">Tweeter</button>
+                <button class="category">Medios</button>
+                <button class="category">6x9 Fullrange</button>
+                <button class="category">Potencias</button>
+                <button class="category">Stereos</button>
+            </div>
+
+            <div class="products-container">
+                <div class="product">
+                    <img src="./assets/img/Main/portada-card.png" alt="subwoofer">
+                    <div class= "product-info">
+                        <div class="product-top">
+                            <h3>SUBWOOFER PIONEER TS-W312D4/S4</h3>
+                        </div>
+                        <div class="product-mid">
+                            <p>Oferta actual</p>
+                            <span>$32.500</span>
+                        </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <img src="./assets/img/Main/fuego.png" alt="fire">
+                            </div>
+                            <button class="btn-add">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="./assets/img/Main/TweeterPioneer.png" id= "tweeter" alt="tweeterpioneer">
+                    <div class product-info>
+                        <div class="product-top">
+                            <h3>TWEETER PIONEER TS B400PRO</h3>
+                            
+                        </div>
+                        <div class="product-mid">
+                            <p>Oferta actual</p>
+                            <span>$22.960</span>
+                        </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <img src="./assets/img/Main/fuego.png" alt="fire">
+                            </div>
+                            <button class="btn-add">Comprar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product">
+                    <img src="./assets/img/Main/Medio Ds 18 Pro.png" alt="woofermediods18">
+                    <div class product-info>
+                        <div class="product-top">
+                            <h3>WOOFER MEDIO DS 18 PRO</h3>
+                            
+                        </div>
+                        <div class="product-mid">
+                            <p>Oferta actual</p>
+                            <span>$12.390</span>
+                        </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <img src="./assets/img/Main/fuego.png" alt="fire">
+                            </div>
+                            <button class="btn-add">Comprar</button>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="product">
+                    <img src="./assets/img/Main/6x9 pioneer.png" alt="6X9pioneer">
+                    <div class product-info>
+                        <div class="product-top">
+                            <h3>PIONEER 6X9 TS-A6985S</h3>
+                            
+                        </div>
+                        <div class="product-mid">
+                            <p>Oferta actual</p>
+                            <span>$24.200</span>
+                        </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <img src="./assets/img/Main/fuego.png" alt="fire">
+                            </div>
+                            <button class="btn-add">Comprar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product">
+                    <img src="./assets/img/Main/potencia Pioneer.png" alt="potenciapioneer">
+                    <div class product-info>
+                        <div class="product-top">
+                            <h3>POTENCIA PIONEER GM 6500F</h3>
+                            
+                        </div>
+                        <div class="product-mid">
+                            <p>Oferta actual</p>
+                            <span>$57.299</span>
+                        </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <img src="./assets/img/Main/fuego.png" alt="fire">
+                            </div>
+                            <button class="btn-add">Comprar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product">
+                    <img src="./assets/img/Main/Stereo pioneer bt.png" alt="stereopioneer">
+                    <div class product-info>
+                        <div class="product-top">
+                            <h3>STEREO PIONEER MVH S218BT</h3>
+                            
+                        </div>
+                        <div class="product-mid">
+                            <p>Oferta actual</p>
+                            <span>$26.300</span>
+                        </div>
+                        <div class="product-bot">
+                            <div class="product-offer">
+                                <img src="./assets/img/Main/fuego.png" alt="fire">
+                            </div>
+                            <button class="btn-add">Comprar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="contacto">
+            
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div>
+            <ul class="footer-links">
+                <li><a href="#">Terminos de uso</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="#">Soporte</a></li>
+                
+            </ul>
+        </div>
+        <p>Hecho por <span>GASTON LUNA</span></p>
+
+    </footer>
+    
+</body>
+</html>
