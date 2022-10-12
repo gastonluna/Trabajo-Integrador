@@ -6,33 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./assets/login.css">
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
     <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
+    
     <header>
-        <nav class="">
-            <a href="./index.html">
-                <img src="./assets/img/navbar/icono-navbar.png" alt="logo" class=""></a>
-            <img src="./assets/img/navbar/login.png" alt="profile">    
+        <img src="./assets/img/navbar/icono-navbar.png" alt="icono" class="icono-navbar">
+        <p class="titulo-principal"> MOON AUDIOCAR</p>
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/img/navbar/menu.png" alt="menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
+            <ul class="navbar-list">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./index.html/#productos">Productos</a>
+                </li>
+                <li>
+                    <a href="./index.html/#contact">Contacto</a>
+                </li>
+                <li>
+                    <a href="#">Login / Register</a>
+                </li>
+            </ul>
+            
+            <label for="cart-toggle" class="cart-lable">
+                <img src="./assets/img/navbar/carrito2.png" class="carrito" alt="carrito de compras"> 
+            </label>
+            <input type="checkbox" id="cart-toggle">
         </nav>
     </header>
+    
     <main>
-        <form class="">
-            <h1 class="">Iniciar Sesion</h1>
-            <input type="email" placeholder="Email" class="" />
-            <input type="password" placeholder="Password" class="" />
-            <a href="./index.html" class="">Ingresar</a>
+        <form class="form" id="login">
+            <h2 class="form_title">Iniciar Sesion</h2>
+            <p class="form_paragraph">Aun no tienes una cuenta? <a href="./register.html" class="form_link">Entra aqui</a></p>
+            
+            <div class="form_container">
+                <div class="form_group">
+                    <input type="text" id="name" class="form_input" placeholder=" ">
+                    <label for="name" class="form_label">Nombre</label>
+                </div>
+                <div class="form_group">
+                    <input type="text" id="user" class="form_input" placeholder=" ">
+                    <label for="user" class="form_label">Usuario</label>
+                </div>
+                <div class="form_group">
+                    <input type="text" id="password" class="form_input" placeholder=" ">
+                    <label for="password" class="form_label">Contrasena:</label>
+                    <span class="form_line"></span>
+                </div>
+
+                <input type="submit" class="form_submit" value="Entrar">
+            </div>
         </form>
+    
     </main>
+
     <footer>
-        <ul class="">
-            <li><a href="#">Terminos de uso</a></li>
-            <li><a href="#">Trabaja con nosotros</a></li>
-            <li><a href="#">Soporte</a></li>
-        </ul>
-        <p class="">
-            Hecho por <span>Gaston Luna</span>
-        </p>
+        <div>
+            <ul class="footer-links">
+                <li><a href="#">Terminos de uso</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="#">Soporte</a></li>
+                
+            </ul>
+        </div>
+        <p>Hecho por <span>GASTON LUNA</span></p>
+
     </footer>
+    
 </body>
 </html>

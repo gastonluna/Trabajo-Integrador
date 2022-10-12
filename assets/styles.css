@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 :root{
     --bacground: #02050e;
-    --primary: #1e50ff;
-    --secondary: #272d37;
-    --btn-bg: #050d26;
-    --bg-azul-10: #e9eeff;
-    --bg-white: #fff;
-    --bg-electric: #f0fbff;
+    --primary: #1eff56a8;
+    --secondary: #064fce;
     --nav-bg: #0f1525;
 
     --text-gray: #adb9c7;
     --text-white: #f3f4f6;
 
     --fire: #ff6d00;
-    --electric: #64d3ff;
+    --electric: #09c6f5;
 }
 
 *{
@@ -46,6 +42,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5px;
+    gap: 5px;
     color: var(--text-white);
     font-family: 'Orbitron', sans-serif;
     font-weight: 200;
@@ -68,15 +66,11 @@ header{
 .navbar-list a{
     color: var(--text-gray);
     font-size: 14px;
+    
 }
 
 .navbar-list a:hover{
     color: var(--text-white);
-}
-
-.navbar-list li:first-child >a{
-    color: var(--text-white);
-    font-weight: 600;
 }
 
 .carrito{
@@ -411,7 +405,7 @@ main{
 }
 
 .top-contact span{
-    color: var(--primary);
+    color: var(--secondary);
     font-size: 100px;
     display: block;
     text-align: center;
@@ -424,7 +418,7 @@ main{
 
 .contact label, .contact input,.contact textarea{
     display: block;
-    color: var(--secondary);
+    color: #02050e;
     width: 100%;
     margin-bottom: 8px;
 }
@@ -435,7 +429,7 @@ main{
 
 .contact input:not([type='submit']), .contact textarea{
     border: none;
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 2px solid var(--secondary);
     margin-bottom: 10px;
     font-size: 20px;
     outline: none;
@@ -449,7 +443,7 @@ main{
 input[type='submit']{
     padding: 10px;
     border-radius: 5px;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -459,7 +453,7 @@ input[type='submit']{
 
 footer{
     background: var(--bacground);
-    color: var(--bg-white);
+    color: var(--text-white);
     display: flex;
     flex-direction: column;
     justify-content: center;
